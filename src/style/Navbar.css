@@ -20,6 +20,7 @@
 list-style: none;
 display: flex;
 gap: 30px;
+margin-top: 20px;
 }
 .menus ul li a{
     text-decoration: none;
@@ -50,6 +51,9 @@ gap: 30px;
     gap: 20px;
     font-size: 20px;
     margin-top: 10px;
+}
+.one:hover{
+    color: gray;
 }
 input{
     height: 40px;

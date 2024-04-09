@@ -36,9 +36,9 @@ function Navbar() {
         <div className="icons">
           <input type="text" placeholder="Search products here" />
           <div className="three-icons">
-            <FaArrowRightArrowLeft />
-            <FaCartShopping />
-            <IoIosContact />
+            <FaArrowRightArrowLeft className="one"/>
+            <FaCartShopping className="one"/>
+            <IoIosContact className="one"/>
           </div>
         </div>
       </div>
