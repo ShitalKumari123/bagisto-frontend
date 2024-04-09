@@ -1,0 +1,11 @@
+.strip{
+    background-color: #E8EDFE;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: serif;
+    font-weight: bold;
+}
