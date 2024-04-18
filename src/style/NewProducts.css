@@ -1,0 +1,39 @@
+.products{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+.name{
+    /* text-align: left; */
+    font-size: 16px;
+    /* margin-left: -25px; */
+    margin-top: 10px;
+}
+.textss{
+    /* text-align: left; */
+    margin-top: -10px;
+    display: flex;
+    margin-left: 95px;
+}
+.price{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.imgss{
+    width: 80%;
+    border-radius: 10px;
+}
+.heading{
+height: 80px;
+display: flex;
+align-items: center;
+margin-left: 50px;
+font-family: serif;
+font-weight: bold;
+font-size: 36px;
+margin-top: 26px;
+}
+.cardz{
+    margin-top: -175px;
+}

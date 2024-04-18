@@ -1,0 +1,76 @@
+/* .hlllo {
+    width: 20%;
+    height: 100px;
+    border: 1px solid rgb(179, 177, 177);
+    box-shadow: 2px 2px 2px 2px rgba(223, 222, 222, 0.724);
+    border-radius: 5px;
+    
+}
+.hlllo h2{
+    font-weight: 400;
+    margin-top: 25px;
+    color: rgb(10, 10, 112);
+}
+.cgp{
+    margin:5px 20px 10px 5px ;
+    font-size: 41px;
+    color: rgb(10, 10, 112);
+}
+.accnt{
+    width: 20%;
+    box-shadow: 2px 2px 2px 2px rgba(223, 222, 222, 0.724);
+    margin-top: 40px;
+}
+.accheader{
+    height: 70px;   
+}
+.ii{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.grtr{
+    display: flex;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.grsy{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.hlo{
+    margin-left: 50px;
+}
+ */
+ .fullly{
+    display: flex;
+    justify-content: space-between;
+ }
+.firsthalf{
+    height: 80vh;
+    width: 25%;
+    background-color: antiquewhite;
+}
+.secondhalf{
+    height: 80vh;
+    width: 75%;
+    background-color: rgb(229, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inbtn{
+    width: 90%;
+}
+.inpt input{
+  height: 40px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.bbttnn{
+    margin-top: 20px;
+}
+.bbttnn button{
+    margin-left: 20px;
+}

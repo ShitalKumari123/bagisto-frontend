@@ -3,32 +3,35 @@ import "../style/Navbar.css";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { FaCartShopping } from "react-icons/fa6";
 import { IoIosContact } from "react-icons/io";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
       <div className="top-nav">
         <div className="bagisto">Bagisto Admin</div>
+        <Link to={"/admin"}>
         <div className="adminpanel">Visit Admin Panel</div>
+        </Link>
       </div>
 
       <div className="nav-bar">
         <div className="logonmenu">
-          <div className="velocity">
+          <Link to={"/"} className="velocity">
            Velocity
-          </div>
+          </Link>
           <div className="menus">
             <ul>
               <li>
-                <a href="#">Men</a>
+                <Link to={"/men/Men"}>Men</Link>
               </li>
               <li>
-                <a href="#">Women</a>
+              <Link to={"/men/Women"}>Women</Link>
               </li>
               <li>
-                <a href="#">Kids</a>
+              <Link to={"/men/Kid"}>Kids</Link>
               </li>
               <li>
-                <a href="#">Wellness</a>
+              <Link to={"/men/Wellness"}>Wellness</Link>
               </li>
             </ul>
           </div>

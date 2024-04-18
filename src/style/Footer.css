@@ -1,0 +1,29 @@
+.foot{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(252, 238, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.last{
+    background-color:rgb(249, 210, 216) ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+   list-style: none;
+   padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 450;
+   
+}
+ul li a:hover{
+    color: gray;
+}

@@ -1,0 +1,34 @@
+
+.containers{
+    height: 396px;
+    width: 396px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.containers img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.put{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 120vh;
+    margin-top: 70px;
+}
+.heading h1 {
+   margin: auto;
+
+   /* width: 450px; */
+   text-align: center;
+}
+.heading h1{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bold;
+}
+.collection{
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: serif;
+}

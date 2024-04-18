@@ -1,0 +1,59 @@
+.fulll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 40px;
+    width: 50%;
+    
+}
+.cards{
+    flex: 0 0 calc(33.33% - 10px); 
+}
+.viewalll{
+    margin-top: 30px;
+}
+.imgs{
+    width: 90%;
+}
+.namee{
+    /* width: 40%; */
+    font-size: 13px;
+    margin-top: 15px;
+    
+}
+.texts{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.pri{
+    font-weight: bold;
+}
+
+.dashboard{
+    /* background-color: rgb(238, 252, 252); */
+    box-shadow: 2px 2px 2px 2px rgba(216, 215, 215, 0.648);
+    width: 40%;
+    height: 100vh;
+    margin-top: 40px;
+    margin-left: 140px;
+    overflow-y: scroll;
+}
+.all{
+    display: flex;
+}
+/* .lists{
+    background-color: antiquewhite;
+} */
+.lists ul li{
+    /* background-color: aqua; */
+    width: 100%;
+}
+.lists ul li:hover{
+    background-color: rgba(218, 211, 211, 0.26)
+}
+.btncharacter{
+    border: none;
+    background-color:transparent;
+}
